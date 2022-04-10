@@ -1,7 +1,0 @@
-Run in workspace\training folder or change paths accordingly
-
-Train model:
-python model_main_tf2.py --model_dir=models\my_ssd_net --pipeline_config_path=models\my_ssd_net\pipeline.config
-
-Save model:
-python exporter_main_v2.py --input_type image_tensor --pipeline_config_path models\my_ssd_net\pipeline.config --trained_checkpoint_dir models\my_ssd_net --output_directory "exported-models\ssd mobilenet"

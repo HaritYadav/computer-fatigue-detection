@@ -7,8 +7,8 @@ RUn in scripts folder, or change path accordingly
 
 -o: path to output.record file
 
-python generate_tfrecord.py -x "D:/Downloads/datasets/computer_fatigue_image_data" -l "D:/Downloads/computer fatigue detection/workspace/training/annotations/label_map.pbtxt" -o "D:/Downloads/computer fatigue detection/workspace/training/annotations/train.record"
+python generate_tfrecord.py -x "D:/Downloads/datasets/computer_fatigue_image_data/train" -l "D:/Downloads/computer fatigue detection/workspace/training/annotations/label_map.pbtxt" -o "D:/Downloads/computer fatigue detection/workspace/training/annotations/train.record"
 
 
 
-python generate_tfrecord.py -x "D:/Downloads/datasets/computer_fatigue_image_data" -l "D:/Downloads/computer fatigue detection/workspace/training/annotations/label_map.pbtxt" -o "D:/Downloads/computer fatigue detection/workspace/training/annotations/test.record"
+python generate_tfrecord.py -x "D:/Downloads/datasets/computer_fatigue_image_data/test" -l "D:/Downloads/computer fatigue detection/workspace/training/annotations/label_map.pbtxt" -o "D:/Downloads/computer fatigue detection/workspace/training/annotations/test.record"
